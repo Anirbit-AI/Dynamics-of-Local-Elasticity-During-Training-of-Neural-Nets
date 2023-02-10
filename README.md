@@ -12,6 +12,13 @@ Link to our paper can be found [here](https://arxiv.org/pdf/2111.01166.pdf)
 |            Classification by features           |       Theorem 3.2       |           Hypothesis 1.2 (b)          |                Theorem 3.2               |
 |                A single ReLU gate               |        Lemma 4.3        |           Hypothesis 1.2 (b)          | (implicitly contained in the discussion) |
 | Weight d-homogeneous,<br /> feature linear predictors | Theorem 5.1 <br />Theorem 5.3 | Hypothesis 1.1 (b) <br />Hypothesis 1.2 (b) |                Theorem 5.2               |
+
+
+## Experimental study of the time dynamics of $S_{\rm rel}$
+
+We trained a RESNET-18 on SVHN, CIFAR-10 and CIFAR-100 to track the dynamics of $S_{\rm rel}$. The following are the results for CIFAR-100 which clearly shows that our definition outperforms the original definition of $S_{\rm rel}$
+
+<img src="Plots/CIFAR_100/KL_Div/CIFAR_100_KL_plot1.jpg" width="200"/> <img src="/Plots/CIFAR_100/KL_Div/CIFAR_100_SUHE_plot1.jpg" width="300"/>
 ## Authors
 
 - [Anirbit Mukherjee](https://research.manchester.ac.uk/en/persons/anirbit.mukherjee)
