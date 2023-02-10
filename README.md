@@ -11,7 +11,8 @@ Link to our paper can be found [here](https://arxiv.org/pdf/2111.01166.pdf)
 |:-----------------------------------------------:|:-----------------------:|:-------------------------------------:|:----------------------------------------:|
 |            Classification by features           |       Theorem 3.2       |           Hypothesis 1.2 (b)          |                Theorem 3.2               |
 |                A single ReLU gate               |        Lemma 4.3        |           Hypothesis 1.2 (b)          | (implicitly contained in the discussion) |
-| Weight d-homogeneous, feature linear predictors | Theorem 5.1 Theorem 5.3 | Hypothesis 1.1 (b) Hypothesis 1.2 (b) |                Theorem 5.2               |
+| Weight d-homogeneous, feature linear predictors | Theorem 5.1 
+Theorem 5.3 | Hypothesis 1.1 (b) Hypothesis 1.2 (b) |                Theorem 5.2               |
 ## Authors
 
 - [Anirbit Mukherjee](https://research.manchester.ac.uk/en/persons/anirbit.mukherjee)
