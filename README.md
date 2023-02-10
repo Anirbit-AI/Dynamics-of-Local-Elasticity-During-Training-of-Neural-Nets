@@ -36,6 +36,10 @@ with open(path+'pair_iters_cifar_100_kl.pkl','rb') as f:
 ```
 where `path` would be a string defining the directory to access the `Assets` folder
 
+- <b> Plots: </b> Contains all the relevant plots that have been used in the paper. The directory contains subdirectories corresponding to each dataset which contain further subdirectories corresponding to the two definitions of $S_{\rm rel}$.
+
+- <b> Scripts: </b> Contains all the `.ipynb` files which were used to conduct the experiments on the datasets and generate the plots. Users need to make sure that the script named `utils.py` is in the same directory as the scripts.
+
 ## Authors
 
 - [Anirbit Mukherjee](https://research.manchester.ac.uk/en/persons/anirbit.mukherjee)
