@@ -22,7 +22,19 @@ We trained a RESNET-18 on SVHN, CIFAR-10 and CIFAR-100 to track the dynamics of 
 <img src="Plots/CIFAR_100/KL_Div/CIFAR_100_KL_plot2.jpg" width="350" height="150"/> <img src="/Plots/CIFAR_100/SuHe/CIFAR_100_SUHE_plot2.jpg" width="350" height="150"/>
 <img src="Plots/CIFAR_100/KL_Div/CIFAR_100_KL_plot3.jpg" width="350" height="150"/> <img src="/Plots/CIFAR_100/SuHe/CIFAR_100_SUHE_plot3.jpg" width="350" height="150"/>
 
+The images at the left are for our definition of $S_{\rm rel}$ while the ones on the right are for te original definition. 
 
+## Directory Structure
+
+- <b> Assets: </b> Contains all pickle files for the python lists used to store all the accuracy metrics, loss and $S_{\rm rel}$ throughout training. Users would only need to load the appropriate pickle files using the following code to reproduce the plots without training:
+
+```python
+
+with open(path+'pair_iters_cifar_100_kl.pkl','rb') as f:
+    pair_iters=pickle.load(f)
+
+```
+where `path` would be a string defining the directory to access the `Assets` folder
 
 ## Authors
 
