@@ -18,9 +18,9 @@ Link to our paper can be found [here](https://arxiv.org/pdf/2111.01166.pdf)
 
 We trained a RESNET-18 on SVHN, CIFAR-10 and CIFAR-100 to track the dynamics of $S_{\rm rel}$. The following are the results for CIFAR-100 which clearly shows that our definition outperforms the original definition of $S_{\rm rel}$
 
-<img src="Plots/CIFAR_100/KL_Div/CIFAR_100_KL_plot1.jpg" width="500" height="200"/> <img src="/Plots/CIFAR_100/SuHe/CIFAR_100_SUHE_plot1.jpg" width="500" height="200"/>
-<img src="Plots/CIFAR_100/KL_Div/CIFAR_100_KL_plot2.jpg" width="500" height="200"/> <img src="/Plots/CIFAR_100/SuHe/CIFAR_100_SUHE_plot2.jpg" width="500" height="200"/>
-<img src="Plots/CIFAR_100/KL_Div/CIFAR_100_KL_plot3.jpg" width="500" height="200"/> <img src="/Plots/CIFAR_100/SuHe/CIFAR_100_SUHE_plot3.jpg" width="500" height="200"/>
+<img src="Plots/CIFAR_100/KL_Div/CIFAR_100_KL_plot1.jpg" width="300" height="200"/> <img src="/Plots/CIFAR_100/SuHe/CIFAR_100_SUHE_plot1.jpg" width="300" height="200"/>
+<img src="Plots/CIFAR_100/KL_Div/CIFAR_100_KL_plot2.jpg" width="300" height="200"/> <img src="/Plots/CIFAR_100/SuHe/CIFAR_100_SUHE_plot2.jpg" width="300" height="200"/>
+<img src="Plots/CIFAR_100/KL_Div/CIFAR_100_KL_plot3.jpg" width="300" height="200"/> <img src="/Plots/CIFAR_100/SuHe/CIFAR_100_SUHE_plot3.jpg" width="300" height="200"/>
 
 
 
